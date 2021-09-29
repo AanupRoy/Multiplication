@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  /* height: 700px; */
+  background-color: rgba(132, 172, 93, 0.568);
+ }
+
+ .h2{
+   text-align: center;
+   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(78, 134, 60), 0 0 5px darkblue;
+ 
+ }
+
+
+ #inn   {
+    display: inline-block;
+    height : 2rem;
+    width: 17rem;
+    border-radius: 10px;
+    opacity: 0.7;
+    text-align: center;
+    border: 2px solid rgb(7, 32, 7);
+    color:rgb(65, 116, 2);
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+
+ }
+ #inn:hover{
+   opacity: 1;
+  
+   border: 2px solid rgb(109, 230, 107);
+ }
+
+.buttonDiv {
+  
+  text-align : center;
+   
+  align-items: center; 
+  padding-top: 10rem;
+  padding-bottom: 25rem;
+  /* background-color: rgba(110, 202, 74, 0.589); */
+  background-image: url("IMEGES/pexels-tara-winstead-7111514.jpg"); /* The image used */
+  height: 350px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+  } 
+  
+
+  .srtB {
+    
+    text-align: center;
+    background-color: rgb(18, 19, 18);
+ 
+    display: inline-block;
+    padding: 0.8rem; 
+   border-radius: 35px;
+   cursor: pointer;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10rem;
+    /* margin-bottom: 6.9rem; */
+
+   font-size: 1.3rem;
+ 
+   border:2px solid black;
+   color: rgba(92, 204, 37, 0.776);
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 0 7px;
+   
+  }
+  .srtB:hover{
+    color:rgba(238, 238, 238, 0.664);
+  }
+  
+
+  .srtB:active{
+    box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  
+   
+   
+  
+
+  .hidden h2{
+    margin: 0;
+    padding: -10px;
+  }
+
+ .innup{
+
+ display: inline-block;
+ width: 4rem; 
+ margin-left: 3.5rem;
+ height: 2rem;
+ border-radius: 10px;
+ border: 2px solid rgb(175, 230, 144);
+ background-color:rgba(128, 128, 128, 0.496);
+ color: white;
+ font-size: 1.5rem;
+ text-align: center;
+ cursor: pointer;
+ font-family:Arial, Helvetica, sans-serif;
+ 
+ }
+ 
+/* 
+ .loader2{
+  display: block;
+  text-align: center;
+} */
+
+.loader {
+  position: absolute;
+  right: 50%;
+  margin-right: -4em;
+}
+ .loader {
+  
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rgb(36, 161, 214);
+  border-bottom: 16px solid rgb(250, 2, 2);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.sum{
+  display: inline-block;
+  padding : 0.7rem;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+}
+
+.resultSpan{
+
+  color: rgb(61, 106, 103);
+  border:  2px solid rgb(26, 26, 26);
+  margin-left: 5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  
+}
+.createdh2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  color: rgb(10, 59, 13);
+  text-align: center;
+}
+
+
+.points{
+  margin-left: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:gold;
+}
